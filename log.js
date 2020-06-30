@@ -1,5 +1,5 @@
 function log (...args) {
-  if (process.env.MY_ENV === "development") {
+  if (process.env.NODE_ENV === "development") {
     console.log(...args);
   }
 }
